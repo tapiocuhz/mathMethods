@@ -31,7 +31,9 @@ public class MathMethods {
 	public void compare() {
 		boolean comparedValue = Math.abs(number1 - number2) <= tolerance;
 		if(comparedValue = true) {
-			System.out.println(number1 + " is greater than 0.0001");
+			System.out.println("The sum of both numbers is less than 0.0001 (tolerance value)");
+		} else if (comparedValue = false) {
+			System.out.println("The sum of both numbers is greater than 0.0001 (tolerance value)");
 		}
 		
 	}
